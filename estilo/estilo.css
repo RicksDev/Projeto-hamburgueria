@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #eb9832;
+  height: 95px;
+}
+p {
+  text-align: center;
+  color: antiquewhite;
+}
+h1 {
+  justify-content: center;
+  text-align: center;
+}
+#titulo {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+#lorem {
+  font-size: small;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin-left: 120px;
+  color: antiquewhite;
+}
+#title {
+  font-size: large;
+  justify-content: center; 
+  text-align: center;
+  /* margin-top: 10px; */
+}
+.letra {
+  font-size: medium;
+}
+.lista {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.lista li {
+  margin: 0 19px;
+}
+.lista li:hover {
+  color: antiquewhite;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+.imagem-principal {
+  margin: auto;
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+.principal {
+  position: relative;
+}
+.burguer {
+  display: flex;
+  text-align: center;
+  margin-left: 40px;
+  color: #eb9832;
+}
+.texto-imagem {
+  font-size: large;
+  color: antiquewhite;
+  font-size: 30px;
+}
+.container-text {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  color: red;
+  width: 230px;
+}
+.container {
+  background-color: #eb9832;
+  height: 500px;
+  margin-top: -10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 50px;
+  /* margin-left: 100px; */
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.container div {
+  border-right: 2px dashed black;
+  /* border-left: 2px dashed black; */
+}
+.container div.img4 {
+  border-right: none;
+}
+
+button {
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #eb9832;
+  border-radius: 30px;
+  border-style: outset;
+  border-color: #eb9832;
+  cursor: pointer;
+  box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.botao:hover {
+  color: #eb9832;
+  background-color: black;
+  transition: 0.5s ease;
+  margin-left: 7px;
+}
+
+.botao:active {
+  color: antiquewhite;
+  background-color: black;
+  transition-duration: 0s;
+}
+
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  position: relative;
+}
+h2.rodape {
+  color: #eb9832;
+  justify-content: center;
+  text-align: center;
+  margin-top: 13px;
+  position: absolute;
+  font-size: small;
+  margin-left: 15px;
+}
+.container-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+img.instagram {
+  margin-top: 36px;
+}
+
+img.copy {
+  color: #eb9832;
+}
+/* .texto-imagem {
+    z-index: 1;
+    background-color: red;
+    margin-top: -500px;
+    color:red;
+    position: absolute;
+    
+} */
