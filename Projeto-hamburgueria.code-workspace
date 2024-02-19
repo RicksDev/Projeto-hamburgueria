@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../OneDrive/Documentos/Aulas/hamburgueria/.vscode"
+	},
+	{
+		"path": "../../../OneDrive/Documentos/Aulas/hamburgueria/estilo"
+	},
+	{
+		"path": "../../../OneDrive/Documentos/Aulas/hamburgueria/imagens"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Projeto-hamburgueria"
+  }
+}
